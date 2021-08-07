@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExoPlayerDemo</string>
+    <string name="title_activity_video_player">Video ExoPlayer</string>
+    <string name="title_activity_audio_player">Audio ExoPlayer</string>
+
+    <string name="title_audio_selection_activity">Select Audio</string>
+    <string name="title_video_selection_activity">Select Video</string>
+    <string name="disable">Disable</string>
+    <string name="auto">Auto</string>
+</resources>

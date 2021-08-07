@@ -1,0 +1,4 @@
+include ':library'
+include ':ExoPlayer-library'
+include ':app'
+rootProject.name = "ExoPlayer_Demo"

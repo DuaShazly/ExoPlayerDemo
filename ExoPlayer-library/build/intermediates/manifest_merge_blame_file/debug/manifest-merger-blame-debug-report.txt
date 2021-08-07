@@ -1,0 +1,17 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.devbrackets.android.exomedia"
+4    android:versionCode="50000"
+5    android:versionName="5.0.0" >
+6
+7    <uses-sdk
+7-->C:\Users\dell\AndroidStudioProjects\ExoPlayerDemo\ExoPlayer-library\src\main\AndroidManifest.xml:3:5-16
+8        android:minSdkVersion="21"
+8-->C:\Users\dell\AndroidStudioProjects\ExoPlayerDemo\ExoPlayer-library\src\main\AndroidManifest.xml:3:5-16
+9        android:targetSdkVersion="30" />
+9-->C:\Users\dell\AndroidStudioProjects\ExoPlayerDemo\ExoPlayer-library\src\main\AndroidManifest.xml:3:5-16
+10
+11    <application />
+11-->C:\Users\dell\AndroidStudioProjects\ExoPlayerDemo\ExoPlayer-library\src\main\AndroidManifest.xml:4:5-20
+12
+13</manifest>

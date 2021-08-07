@@ -1,0 +1,55 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/black">
+
+    <com.devbrackets.android.exomedia.ui.widget.VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:playerConfigProvider="com.dua.exoplayerdemo.app.ExoPlayerApp$OkPlayerConfigProvider"
+        app:useDefaultControls="true"/>
+
+    <com.dua.exoplayerdemo.ui.subtitle.AspectRatioFrameLayout
+        android:id="@+id/subtitleFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <com.dua.exoplayerdemo.ui.subtitle.SubtitleView
+            android:id="@+id/subtitleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.dua.exoplayerdemo.ui.subtitle.AspectRatioFrameLayout>
+</RelativeLayout>
+
+    <!--<RelativeLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:fitsSystemWindows="true"-->
+<!--    android:background="@android:color/black">-->
+
+<!--    <com.devbrackets.android.exomedia.ui.widget.VideoView-->
+<!--        android:id="@+id/videoView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:playerConfigProvider="com.dua.exoplayerdemo.app.ExoPlayerApp$OkPlayerConfigProvider"-->
+<!--        app:useDefaultControls="true"/>-->
+
+<!--    <com.dua.exoplayerdemo.ui.subtitle.AspectRatioFrameLayout-->
+<!--        android:id="@+id/subtitleFrameLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_centerInParent="true">-->
+
+<!--        <com.dua.exoplayerdemo.ui.subtitle.SubtitleView-->
+<!--            android:id="@+id/subtitleView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+<!--    </com.dua.exoplayerdemo.ui.subtitle.AspectRatioFrameLayout>-->
+<!--</RelativeLayout>-->
